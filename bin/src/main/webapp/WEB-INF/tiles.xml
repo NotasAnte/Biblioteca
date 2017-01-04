@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Layout principal -->
+	<definition name="mainTemplate" template="/WEB-INF/page/layout/main.jsp"/>
+
+	<!-- Pagina de inicio APP -->
+	<definition name="/index.tile" extends="mainTemplate">
+		<put-attribute name="css" value="/WEB-INF/page/layout/css.jsp"/>
+		<put-attribute name="jsLib" value="/WEB-INF/page/layout/jsLib.jsp"/>
+		<put-attribute name="header" value="/WEB-INF/page/layout/header.jsp"/>
+		<put-attribute name="contenido" value="" />
+		<put-attribute name="footer" value="/WEB-INF/page/layout/footer.jsp"/>
+		<put-attribute name="jsModules" value="/WEB-INF/page/layout/jsModules.jsp"/>
+	</definition>
+
+</tiles-definitions>

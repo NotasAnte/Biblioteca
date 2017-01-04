@@ -1,0 +1,40 @@
+a { color: #8AB6DD !important; }
+
+.divHeader { padding-top: 10px; }
+
+.linkIco { padding: 5px 0px 0px 0px; }
+.linkIco img { width: 60%; }
+
+#iconografia
+
+@font-face {
+  font-family: 'iconosBiblioteca';
+  src: url('../fonts/iconosBiblioteca.woff') format('woff'), url('../fonts/iconosBiblioteca.svg') format('svg');
+}
+
+.iconosBiblioteca {
+  position: relative;
+  top: 1px;
+  font-size: 1.7em;
+  margin-right: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'iconosComedor';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icono-teclado:before {
+	content: "a"; 
+}
+
+.vertical { vertical-align: middle !important; }
+td.paddingImg { padding: 1px 8px 1px 8px !important;  }
+
+table tbody tr { cursor: pointer; }
+table tbody tr.selected { background-color: #31B0D5 !important;}
+.table-striped>tbody>tr:nth-of-type(odd) { background-color: #F0FFFF; }
+.table-striped>tbody>tr:nth-of-type(even) { background-color: #F0F8FF; }
